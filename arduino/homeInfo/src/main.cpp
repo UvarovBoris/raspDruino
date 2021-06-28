@@ -45,10 +45,11 @@ void setup()
   htDisplay.clear();
   htDisplay.brightness(7);
 
-  //if (rtc.lostPower()) {
-  //rtc.setTime(COMPILE_TIME);
-  rtc.setTime(0, 4, 10, 26, 06, 2021);
-  //}
+  if (rtc.lostPower())
+  {
+    //rtc.setTime(COMPILE_TIME);
+    rtc.setTime(0, 7, 15, 28, 06, 2021);
+  }
 
   clockDisplay.clear();
   clockDisplay.brightness(7);

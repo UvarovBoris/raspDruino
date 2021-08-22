@@ -3,11 +3,11 @@
 #include "GyverTM1637.h"
 #include "microDS3231.h"
 
-#define DHT_IN_DATA_PIN 12
+#define DHT_IN_DATA_PIN 2
 #define DHT_TYPE DHT11
 
-#define HT_OUT_CLK_PIN 5
-#define HT_OUT_DIO_PIN 6
+#define HT_OUT_CLK_PIN 11
+#define HT_OUT_DIO_PIN 12
 
 #define CLOCK_OUT_CLK_PIN 3
 #define CLOCK_OUT_DIO_PIN 4
